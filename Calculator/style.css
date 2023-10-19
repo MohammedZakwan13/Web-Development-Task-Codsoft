@@ -1,0 +1,27 @@
+.bodybackground {
+    color: black;
+}
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    border: none;
+    background-color: #73a4d3;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d1ced8;
+}
